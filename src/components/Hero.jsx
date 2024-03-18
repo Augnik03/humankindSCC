@@ -1,11 +1,13 @@
 import React from 'react'
+import img1 from '../assets/HeroTop.png'
+import img2 from '../assets/HeroBottom.png'
 
 export default function Hero() {
     return (
         <>
             <div>
-                <img className="relative top-0 left-0 w-full h-full object-cover z-[-1]" src="src\assets\62d1b8e2c048c969e47514c7_hero-top-p-1600.png" alt="Top Image" />
-                <img className="static mt-[-210px] top-0 left-0 w-full h-full object-cover" src="src\assets\62d1b8e32e16f6b524514c60_hero-bottom-p-1600.png" alt="Bottom Image" />
+                <img className="relative top-0 left-0 w-full h-full object-cover z-[-1]" src={img1} alt="Top Image" />
+                <img className="static mt-[-210px] top-0 left-0 w-full h-full object-cover" src={img2} alt="Bottom Image" />
             </div>
             <div>
                 <h1 className='pl-10 text-2xl mb-6 '>Creating a magical world for the kid in all of us.</h1>

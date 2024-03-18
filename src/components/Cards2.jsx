@@ -1,4 +1,8 @@
 import React from 'react';
+import card1 from '../assets/card1.png'
+import card2 from '../assets/card2.png'
+import card3 from '../assets/card3.png'
+import card4 from '../assets/card4.gif'
 
 export default function Cards() {
     return (
@@ -7,7 +11,7 @@ export default function Cards() {
                 <div>
                     <img
                         className="block mx-auto cursor-zoom-in bg-gray-300 rounded-lg  transition duration-300 hover:bg-gray-200"
-                        src="src\assets\64f086fc9537ff63dda7f953_Arcadewrestle-p-800-ezgif.com-webp-to-png-converter.png"
+                        src={card1}
                         width="776"
                         height="776"
                         alt="Your Image"
@@ -30,7 +34,7 @@ export default function Cards() {
                 <div>
                     <img
                         className="block mx-auto cursor-zoom-in bg-gray-300 rounded-lg  transition duration-300 hover:bg-gray-200"
-                        src="src/assets/ezgif.com-webp-to-png-converter.png"
+                        src={card2}
                         width="776"
                         height="776"
                         alt="Your Image"
@@ -52,7 +56,7 @@ export default function Cards() {
                 <div>
                     <img
                         className="block mx-auto cursor-zoom-in bg-gray-300 rounded-lg  transition duration-300 hover:bg-gray-200"
-                        src="src/assets/3rdcard.png"
+                        src={card3}
                         width="776"
                         height="776"
                         alt="Your Image"
@@ -74,7 +78,7 @@ export default function Cards() {
                 <div>
                     <img
                         className="block mx-auto cursor-zoom-in bg-gray-300 rounded-lg  transition duration-300 hover:bg-gray-200"
-                        src="src/assets/63765b76de5f1356947d9d23_Lunchboxes.gif"
+                        src={card4}
                         width="776"
                         height="776"
                         alt="Your Image"
