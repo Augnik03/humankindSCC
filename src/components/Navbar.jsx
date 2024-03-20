@@ -132,7 +132,7 @@ export default function Navbar() {
                                 <a href="#" className="block mt-2 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Subscribe</a>
                             </li>
                             <li>
-                                <button className="text-white rounded-full bg-black hover:bg-orange-600 hover:border-4 border-black px-[23px] py-[6px]">Play Now! 💀</button>
+                                <button className="text-white rounded-full bg-black hover:bg-orange-600 hover:border-4 border-black px-[23px] py-[6px] hover:ease-in-out duration-100 hover:translate-x-2 hover:translate-y-[-4px] hover:shadow-[-1px_1px]">Play Now! 💀</button>
                             </li>
                         </ul>
                     </div>
